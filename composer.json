@@ -1,0 +1,35 @@
+{
+    "name": "osflab/validator",
+    "description": "OSF validators based on ZF2/3",
+    "type": "library",
+    "homepage": "https://github.com/osflab/validator",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Guillaume Ponçon",
+            "email": "guillaume.poncon@openstates.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/osflab/validator/issues",
+        "source": "https://github.com/osflab/validator"
+    },
+    "require": {
+        "php": "^7.1.0",
+        "zendframework/zend-validator": "~2.10.2"
+    },
+    "suggest": {
+        "osflab/stream": "For password validator"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Osf\\Validator\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
+}
