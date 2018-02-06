@@ -11,7 +11,7 @@ namespace Osf\Validator;
 use Osf\Validator\AbstractValidator;
 
 /**
- * FR: Numéro d'immatriculation RNA des associations
+ * RNA registration number of associations
  *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates

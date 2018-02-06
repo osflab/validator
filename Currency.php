@@ -22,7 +22,7 @@ use Osf\Validator\AbstractValidator;
  */
 class Currency extends AbstractValidator
 {
-    const INVALID = 'currencyInvalid';
+    const INVALID  = 'currencyInvalid';
     const NEGATIVE = 'currenctyNegative';
 
     /**

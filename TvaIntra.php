@@ -11,7 +11,7 @@ namespace Osf\Validator;
 use Osf\Validator\AbstractValidator;
 
 /**
- * FR: TVA intracommunautaire internationale (à optimiser)
+ * International intra-community VAT
  *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates
@@ -19,6 +19,7 @@ use Osf\Validator\AbstractValidator;
  * @since OSF-2.0 - 2017
  * @package osf
  * @subpackage validator
+ * @todo to optimize
  */
 class TvaIntra extends AbstractValidator
 {
