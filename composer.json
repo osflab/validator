@@ -16,7 +16,11 @@
     },
     "require": {
         "php": "^7.1.0",
-        "zendframework/zend-validator": "~2.10.2"
+        "zendframework/zend-validator": "~2.10.2",
+        "osflab/exception": "~3.0.0"
+    },
+    "require-dev": {
+        "osflab/test": "~3.0.0"
     },
     "suggest": {
         "osflab/stream": "For password validator"
