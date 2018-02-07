@@ -11,7 +11,7 @@ namespace Osf\Validator;
 use Zend\Validator\AbstractValidator as ZAF;
 
 /**
- * Validators mother class
+ * OSF Validators parent class
  *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates
